@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="../Css/eventos.css">
+</head>
+
+<body>
+    <header>
+        <div class="input">
+            <button class="value" id="getEvento" onclick="MostrarInformacion()">
+                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
+                    <path fill="#7D8590"
+                        d="m1.5 13v1a.5.5 0 0 0 .3379.4731 18.9718 18.9718 0 0 0 6.1621 1.0269 18.9629 18.9629 0 0 0 6.1621-1.0269.5.5 0 0 0 .3379-.4731v-1a6.5083 6.5083 0 0 0 -4.461-6.1676 3.5 3.5 0 1 0 -4.078 0 6.5083 6.5083 0 0 0 -4.461 6.1676zm4-9a2.5 2.5 0 1 1 2.5 2.5 2.5026 2.5026 0 0 1 -2.5-2.5zm2.5 3.5a5.5066 5.5066 0 0 1 5.5 5.5v.6392a18.08 18.08 0 0 1 -11 0v-.6392a5.5066 5.5066 0 0 1 5.5-5.5z">
+                    </path>
+                </svg>
+                Ver lista de eventos
+            </button>
+            <button class="value" onclick="MostrarFormulario()">
+                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
+                    <path fill="#7D8590"
+                        d="m1.5 13v1a.5.5 0 0 0 .3379.4731 18.9718 18.9718 0 0 0 6.1621 1.0269 18.9629 18.9629 0 0 0 6.1621-1.0269.5.5 0 0 0 .3379-.4731v-1a6.5083 6.5083 0 0 0 -4.461-6.1676 3.5 3.5 0 1 0 -4.078 0 6.5083 6.5083 0 0 0 -4.461 6.1676zm4-9a2.5 2.5 0 1 1 2.5 2.5 2.5026 2.5026 0 0 1 -2.5-2.5zm2.5 3.5a5.5066 5.5066 0 0 1 5.5 5.5v.6392a18.08 18.08 0 0 1 -11 0v-.6392a5.5066 5.5066 0 0 1 5.5-5.5z">
+                    </path>
+                </svg>
+                Agregar evento
+            </button>
+        </div>
+    </header>
+    <h2 id="titulo">Lista de eventos</h2>
+    <main>
+        <table class="card" id="tablaEventos">
+            <tr class="card__title" id="encabezado">
+                <th>Id</th>
+                <th>Titulo</th>
+                <th>Descripcion</th>
+                <th>Lugar</th>
+                <th>Fecha</th>
+                <th>Id Usuario</th>
+            </tr>
+            <tr class="card__right" id="ejemplo">
+                <td class="item">1</td>
+                <td class="item">Titulo</td>
+                <td class="item">Descripcion</td>
+                <td class="item">Lugar</td>
+                <td class="item">Fecha</td>
+                <td class="item">Id Usuario</td>
+            </tr>
+        </table>
+
+        
+        <div class="container" id="formulario">
+            <form class="form" action="">
+                <div class="input-field">
+                    <label for="titulo">Titulo: </label>
+                    <input required autocomplete="off" type="text" name="text" id="tituloform" />
+                </div>
+                <div class="input-field">
+                    <label for="descripcion">Descripcion: </label>
+                    <input required autocomplete="off" type="text" name="text" id="descripcion" />
+                </div>
+                <div class="input-field">
+                    <label for="lugar">Lugar: </label>
+                    <input required autocomplete="off" type="text" name="text" id="lugar" />
+                </div>
+                <div class="input-field">
+                    <label for="fecha">Fecha:</label>
+                    <input type="datetime-local" id="fecha" required>
+                </div>
+                <div class="input-field">
+                    <label for="UsuarioId">UsuarioId: </label>
+                    <input required autocomplete="off" type="text" name="text" id="UsuarioId" />
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="PostEventos()">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+    <footer></footer>
+    <script src="../JavaScript/eventos.js"></script>
+    <script src="../JavaScript/fetch.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|c:\\users\\abraham\\desktop\\eventmanager\\eventmanager\\javascript\\fetch.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|solutionrelative:javascript\\fetch.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|c:\\users\\abraham\\desktop\\eventmanager\\eventmanager\\html\\eventos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|solutionrelative:html\\eventos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|c:\\users\\abraham\\desktop\\eventmanager\\eventmanager\\css\\eventos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|solutionrelative:css\\eventos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|c:\\users\\abraham\\desktop\\eventmanager\\eventmanager\\javascript\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|solutionrelative:javascript\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|c:\\users\\abraham\\desktop\\eventmanager\\eventmanager\\javascript\\eventos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{72E07558-609A-4C71-8E74-CEFDA2DCE42C}|EventManager.csproj|solutionrelative:javascript\\eventos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "eventos.js",
+              "DocumentMoniker": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\eventos.js",
+              "RelativeDocumentMoniker": "JavaScript\\eventos.js",
+              "ToolTip": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\eventos.js",
+              "RelativeToolTip": "JavaScript\\eventos.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-20T22:24:20.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\login.js",
+              "RelativeDocumentMoniker": "JavaScript\\login.js",
+              "ToolTip": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\login.js",
+              "RelativeToolTip": "JavaScript\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-20T21:57:19.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eventos.css",
+              "DocumentMoniker": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\Css\\eventos.css",
+              "RelativeDocumentMoniker": "Css\\eventos.css",
+              "ToolTip": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\Css\\eventos.css",
+              "RelativeToolTip": "Css\\eventos.css",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAANwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-20T21:21:24.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fetch.js",
+              "DocumentMoniker": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\fetch.js",
+              "RelativeDocumentMoniker": "JavaScript\\fetch.js",
+              "ToolTip": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\JavaScript\\fetch.js",
+              "RelativeToolTip": "JavaScript\\fetch.js",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-20T20:56:55.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "eventos.html",
+              "DocumentMoniker": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\HTML\\eventos.html",
+              "RelativeDocumentMoniker": "HTML\\eventos.html",
+              "ToolTip": "C:\\Users\\Abraham\\Desktop\\EventManager\\EventManager\\HTML\\eventos.html",
+              "RelativeToolTip": "HTML\\eventos.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-20T20:50:23.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
